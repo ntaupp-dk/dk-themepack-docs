@@ -1,3 +1,8 @@
+---
+layout: default
+title: DRYKORN Themepack — Inhaltselemente
+---
+
 # DRYKORN Themepack — Inhaltselemente
 
 Handbuch fuer Redakteure. Dieses Dokument beschreibt alle verfuegbaren Inhaltselemente im TYPO3-Backend.
