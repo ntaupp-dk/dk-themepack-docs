@@ -52,7 +52,7 @@ Grossflaechiges Bannerelement fuer den Seiteneinstieg. Zeigt ein Bild oder Video
 | Variante | 1-spaltig / 2-spaltig / 2-spaltig Text mittig / 3-spaltig. Bestimmt die Aufteilung der Slides. |
 | Rahmen oben/unten | Fuegt oben und/oder unten einen sichtbaren Rahmen hinzu. |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Slide-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -89,7 +89,7 @@ Zeigt Inhalte als Kartengitter an — ideal fuer Teaser, Stories oder Lookbooks.
 | Animation | Aktiviert eine Einblendanimation (Fade-Up) mit zeitversetztem Erscheinen. |
 | Spalten | 1 / 2 / 3 / 4 Spalten im Desktop-Layout. |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Karte</summary>
 
 | Feld | Beschreibung |
@@ -118,7 +118,7 @@ Shopware-Kategorie-Slider mit Herren/Damen-Umschalter. Zeigt Produktkategorien a
 | Peek-Effekt | Zeigt beim Laden kurz an, dass weitere Inhalte vorhanden sind. |
 | Rahmen | Rahmenlinien oben/unten. |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Kategorie-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -141,7 +141,7 @@ Outfit-Slider, der komplette Looks mit verlinkten Produkten zeigt. Jeder Slide e
 
 ![Look Group](Screenshots/look-group.png)
 
-<details>
+<details markdown="1">
 <summary>Felder pro Look-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -203,7 +203,7 @@ Raster aus Icons mit begleitendem Text — fuer Features, Services oder Vorteile
 | Spalten | Auto / 1–7 Spalten. |
 | Icon-Position | Links-Oben / Links-Mitte / Rechts-Oben / Rechts-Mitte / Darueber / Darunter. |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Icon-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -249,7 +249,7 @@ Aufklappbare Bereiche — z.B. fuer FAQ, Produktdetails oder Zusatzinformationen
 | Ueberschrift | Titel ueber dem Accordion. |
 | Standard-Element | Welches Panel beim Laden automatisch geoeffnet ist (FlexForm). |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Accordion-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -281,7 +281,7 @@ Tab-Navigation mit mehreren Reitern. Jeder Reiter zeigt beim Klick seinen Inhalt
 | Ueberschrift | Titel ueber den Tabs. |
 | Standard-Tab | Welcher Tab beim Laden aktiv ist (FlexForm). |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Tab-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -306,7 +306,7 @@ Vertikale Zeitleiste mit Datumsmarkierungen — z.B. fuer Unternehmensgeschichte
 | Ueberschrift | Titel ueber der Timeline. |
 | Sortierung | Aufsteigend / Absteigend (nach Datum). |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Timeline-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -327,7 +327,7 @@ Horizontale Leiste mit Alleinstellungsmerkmalen (Unique Selling Points). Wird al
 
 ![USPs](Screenshots/usps.png)
 
-<details>
+<details markdown="1">
 <summary>Felder pro USP-Eintrag</summary>
 
 | Feld | Beschreibung |
@@ -345,7 +345,7 @@ Animierte Fortschrittsbalken — z.B. fuer Nachhaltigkeitsziele, Skill-Levels od
 
 ![Progress Bar](Screenshots/progress-bar.png)
 
-<details>
+<details markdown="1">
 <summary>Felder pro Balken</summary>
 
 | Feld | Beschreibung |
@@ -371,7 +371,7 @@ Horizontale Navigationsleiste mit Links zu Shopware-Kategorien. Zeigt einen Intr
 |------|-------------|
 | Kategorie-Intro | Einleitungstext ueber der Navigation. |
 
-<details>
+<details markdown="1">
 <summary>Felder pro Navigationseintrag</summary>
 
 | Feld | Beschreibung |
