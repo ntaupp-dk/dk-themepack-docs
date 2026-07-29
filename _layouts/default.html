@@ -164,18 +164,19 @@
     ol li { margin-bottom: 4px; }
     ol strong { color: var(--c-text); }
 
-    /* Images — thumbnail with click to enlarge */
+    /* Images — small thumbnail with click to enlarge */
     .page-wrap img {
-      max-width: 100%;
+      max-width: 280px;
       height: auto;
       border: 1px solid var(--c-border);
       border-radius: 6px;
       margin: 12px 0;
       cursor: zoom-in;
-      transition: box-shadow .2s;
+      transition: box-shadow .2s, transform .2s;
     }
     .page-wrap img:hover {
       box-shadow: 0 4px 16px rgba(0,0,0,.12);
+      transform: scale(1.02);
     }
 
     /* Lightbox overlay */
