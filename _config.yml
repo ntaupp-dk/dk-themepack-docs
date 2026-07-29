@@ -1,0 +1,6 @@
+title: DRYKORN Themepack — Inhaltselemente
+description: Handbuch fuer Redakteure
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
