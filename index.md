@@ -52,19 +52,18 @@ Grossflaechiges Bannerelement fuer den Seiteneinstieg. Zeigt ein Bild oder Video
 | Variante | 1-spaltig / 2-spaltig / 2-spaltig Text mittig / 3-spaltig. Bestimmt die Aufteilung der Slides. |
 | Rahmen oben/unten | Fuegt oben und/oder unten einen sichtbaren Rahmen hinzu. |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Slide-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Ueberschrift | Headline auf dem Slide. |
-| Text | Beschreibungstext (Richtext-Editor). |
-| Bild / Video | Hintergrundbild oder -video fuer den Slide. |
-| Link / Link-Titel | Button-Link und dessen Beschriftung. |
-| Linktyp | Detail / Navigation / Landingpage / Extern / Modal. |
-| Textfarbe | Aendert die Textfarbe (Standard: Schwarz). |
-| Hintergrundfarbe | Weiss / Hellgrau / Dunkel / Verlauf — als farbiger Overlay. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Ueberschrift</td><td>Headline auf dem Slide.</td></tr>
+<tr><td>Text</td><td>Beschreibungstext (Richtext-Editor).</td></tr>
+<tr><td>Bild / Video</td><td>Hintergrundbild oder -video fuer den Slide.</td></tr>
+<tr><td>Link / Link-Titel</td><td>Button-Link und dessen Beschriftung.</td></tr>
+<tr><td>Linktyp</td><td>Detail / Navigation / Landingpage / Extern / Modal.</td></tr>
+<tr><td>Textfarbe</td><td>Aendert die Textfarbe (Standard: Schwarz).</td></tr>
+<tr><td>Hintergrundfarbe</td><td>Weiss / Hellgrau / Dunkel / Verlauf — als farbiger Overlay.</td></tr>
+</table>
 </details>
 
 > **Tipp:** Fuer helle Bilder die Textfarbe auf Schwarz setzen; bei dunklen Bildern eine helle Hintergrundfarbe waehlen, damit der Text lesbar bleibt. Bei Linktyp »Modal« wird ein Video-Overlay geoeffnet statt eines Seitenwechsels.
@@ -89,17 +88,16 @@ Zeigt Inhalte als Kartengitter an — ideal fuer Teaser, Stories oder Lookbooks.
 | Animation | Aktiviert eine Einblendanimation (Fade-Up) mit zeitversetztem Erscheinen. |
 | Spalten | 1 / 2 / 3 / 4 Spalten im Desktop-Layout. |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Karte</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Typ | Story / Teaser / Lookbook — beeinflusst die Darstellung. |
-| Bild | Visuelles Element der Karte. |
-| Text | Kartentext (Richtext). |
-| Link / Link-Titel | Verlinkung der Karte. |
-| Linktyp | Bei »Modal« wird ein Video-Overlay geoeffnet. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Typ</td><td>Story / Teaser / Lookbook — beeinflusst die Darstellung.</td></tr>
+<tr><td>Bild</td><td>Visuelles Element der Karte.</td></tr>
+<tr><td>Text</td><td>Kartentext (Richtext).</td></tr>
+<tr><td>Link / Link-Titel</td><td>Verlinkung der Karte.</td></tr>
+<tr><td>Linktyp</td><td>Bei »Modal« wird ein Video-Overlay geoeffnet.</td></tr>
+</table>
 </details>
 
 ---
@@ -118,17 +116,16 @@ Shopware-Kategorie-Slider mit Herren/Damen-Umschalter. Zeigt Produktkategorien a
 | Peek-Effekt | Zeigt beim Laden kurz an, dass weitere Inhalte vorhanden sind. |
 | Rahmen | Rahmenlinien oben/unten. |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Kategorie-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Typ | Freisteller / Editorial-Text aussen / Editorial-Text innen / NOS. |
-| Hauptkategorie | Herren / Damen — bestimmt, bei welchem Tab die Karte erscheint. |
-| Kategorie-Label | Beschriftung der Kategorie. |
-| Bild-Anpassung | Cover (zuschneiden) oder Contain (vollstaendig anzeigen). |
-| Unterkategorien | Inline-Eintraege mit Bild, Link, Titel und Subline. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Typ</td><td>Freisteller / Editorial-Text aussen / Editorial-Text innen / NOS.</td></tr>
+<tr><td>Hauptkategorie</td><td>Herren / Damen — bestimmt, bei welchem Tab die Karte erscheint.</td></tr>
+<tr><td>Kategorie-Label</td><td>Beschriftung der Kategorie.</td></tr>
+<tr><td>Bild-Anpassung</td><td>Cover (zuschneiden) oder Contain (vollstaendig anzeigen).</td></tr>
+<tr><td>Unterkategorien</td><td>Inline-Eintraege mit Bild, Link, Titel und Subline.</td></tr>
+</table>
 </details>
 
 > **Tipp:** Ueber die Hauptkategorie (Herren/Damen) wird automatisch ein animierter Tab-Umschalter erzeugt. Bei Typ »Freisteller« wirkt ein freigestelltes Produktbild am besten.
@@ -141,15 +138,14 @@ Outfit-Slider, der komplette Looks mit verlinkten Produkten zeigt. Jeder Slide e
 
 ![Look Group](Screenshots/look-group.png)
 
-<details markdown="1">
+<details>
 <summary>Felder pro Look-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Titel | Name des Looks. |
-| Look-Bild | Das Hauptbild des Outfits. |
-| Produkt-Bilder | Bis zu 3 kleine Produktbilder. Jedes kann auf eine Produktseite verlinkt werden. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Titel</td><td>Name des Looks.</td></tr>
+<tr><td>Look-Bild</td><td>Das Hauptbild des Outfits.</td></tr>
+<tr><td>Produkt-Bilder</td><td>Bis zu 3 kleine Produktbilder. Jedes kann auf eine Produktseite verlinkt werden.</td></tr>
+</table>
 </details>
 
 ---
@@ -203,16 +199,15 @@ Raster aus Icons mit begleitendem Text — fuer Features, Services oder Vorteile
 | Spalten | Auto / 1–7 Spalten. |
 | Icon-Position | Links-Oben / Links-Mitte / Rechts-Oben / Rechts-Mitte / Darueber / Darunter. |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Icon-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Text | Beschreibung neben dem Icon (Richtext). |
-| Link | Optionale Verlinkung. |
-| Icon-Set / Icon | Auswahl aus den verfuegbaren Icon-Bibliotheken. |
-| Icon-Datei | Alternativ: eigenes Bild als Icon hochladen. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Text</td><td>Beschreibung neben dem Icon (Richtext).</td></tr>
+<tr><td>Link</td><td>Optionale Verlinkung.</td></tr>
+<tr><td>Icon-Set / Icon</td><td>Auswahl aus den verfuegbaren Icon-Bibliotheken.</td></tr>
+<tr><td>Icon-Datei</td><td>Alternativ: eigenes Bild als Icon hochladen.</td></tr>
+</table>
 </details>
 
 ---
@@ -249,19 +244,18 @@ Aufklappbare Bereiche — z.B. fuer FAQ, Produktdetails oder Zusatzinformationen
 | Ueberschrift | Titel ueber dem Accordion. |
 | Standard-Element | Welches Panel beim Laden automatisch geoeffnet ist (FlexForm). |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Accordion-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Ueberschrift | Titel des aufklappbaren Bereichs (Pflichtfeld). |
-| Tabellen-Modus | Schaltet zwischen Richtext und Tabellendarstellung um. |
-| Text | Inhalt des Bereichs (Richtext oder Tabelle). |
-| Textbreite | 25% / 33% / 50% / 75% der Gesamtbreite. |
-| Medien | Bilder oder Videos neben dem Text. |
-| Medien-Ausrichtung | Links / Oben / Rechts / Unten. |
-| Bildspalten | 1–6 Spalten fuer die Medienansicht. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Ueberschrift</td><td>Titel des aufklappbaren Bereichs (Pflichtfeld).</td></tr>
+<tr><td>Tabellen-Modus</td><td>Schaltet zwischen Richtext und Tabellendarstellung um.</td></tr>
+<tr><td>Text</td><td>Inhalt des Bereichs (Richtext oder Tabelle).</td></tr>
+<tr><td>Textbreite</td><td>25% / 33% / 50% / 75% der Gesamtbreite.</td></tr>
+<tr><td>Medien</td><td>Bilder oder Videos neben dem Text.</td></tr>
+<tr><td>Medien-Ausrichtung</td><td>Links / Oben / Rechts / Unten.</td></tr>
+<tr><td>Bildspalten</td><td>1–6 Spalten fuer die Medienansicht.</td></tr>
+</table>
 </details>
 
 > **Tipp:** Im Tabellen-Modus koennen Groessentabellen oder Datenvergleiche komfortabel dargestellt werden. Die Textbreite und Medien-Ausrichtung ermoeglichen flexible Layouts innerhalb jedes Panels.
@@ -281,14 +275,13 @@ Tab-Navigation mit mehreren Reitern. Jeder Reiter zeigt beim Klick seinen Inhalt
 | Ueberschrift | Titel ueber den Tabs. |
 | Standard-Tab | Welcher Tab beim Laden aktiv ist (FlexForm). |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Tab-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Ueberschrift | Tab-Beschriftung in der Navigation. |
-| Medien | Bilder oder Videos, die im Tab-Bereich angezeigt werden. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Ueberschrift</td><td>Tab-Beschriftung in der Navigation.</td></tr>
+<tr><td>Medien</td><td>Bilder oder Videos, die im Tab-Bereich angezeigt werden.</td></tr>
+</table>
 </details>
 
 ---
@@ -306,17 +299,16 @@ Vertikale Zeitleiste mit Datumsmarkierungen — z.B. fuer Unternehmensgeschichte
 | Ueberschrift | Titel ueber der Timeline. |
 | Sortierung | Aufsteigend / Absteigend (nach Datum). |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Timeline-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Datum | Das Datum des Eintrags — die Jahreszahl wird als Markierung angezeigt. |
-| Ueberschrift | Titel des Zeitpunkts. |
-| Text | Beschreibung (Richtext). |
-| Icon | Icon aus einer Bibliothek oder als eigene Datei. |
-| Bild | Optionales Bild zum Eintrag. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Datum</td><td>Das Datum des Eintrags — die Jahreszahl wird als Markierung angezeigt.</td></tr>
+<tr><td>Ueberschrift</td><td>Titel des Zeitpunkts.</td></tr>
+<tr><td>Text</td><td>Beschreibung (Richtext).</td></tr>
+<tr><td>Icon</td><td>Icon aus einer Bibliothek oder als eigene Datei.</td></tr>
+<tr><td>Bild</td><td>Optionales Bild zum Eintrag.</td></tr>
+</table>
 </details>
 
 ---
@@ -327,14 +319,13 @@ Horizontale Leiste mit Alleinstellungsmerkmalen (Unique Selling Points). Wird al
 
 ![USPs](Screenshots/usps.png)
 
-<details markdown="1">
+<details>
 <summary>Felder pro USP-Eintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Text | Kurzbeschreibung des USP (Richtext). |
-| Icon | Icon aus einer Bibliothek oder als eigene Datei. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Text</td><td>Kurzbeschreibung des USP (Richtext).</td></tr>
+<tr><td>Icon</td><td>Icon aus einer Bibliothek oder als eigene Datei.</td></tr>
+</table>
 </details>
 
 ---
@@ -345,14 +336,13 @@ Animierte Fortschrittsbalken — z.B. fuer Nachhaltigkeitsziele, Skill-Levels od
 
 ![Progress Bar](Screenshots/progress-bar.png)
 
-<details markdown="1">
+<details>
 <summary>Felder pro Balken</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Bezeichnung | Label des Balkens (Pflichtfeld). |
-| Wert | Prozentwert von 0–100 (Pflichtfeld). |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Bezeichnung</td><td>Label des Balkens (Pflichtfeld).</td></tr>
+<tr><td>Wert</td><td>Prozentwert von 0–100 (Pflichtfeld).</td></tr>
+</table>
 </details>
 
 ---
@@ -371,15 +361,14 @@ Horizontale Navigationsleiste mit Links zu Shopware-Kategorien. Zeigt einen Intr
 |------|-------------|
 | Kategorie-Intro | Einleitungstext ueber der Navigation. |
 
-<details markdown="1">
+<details>
 <summary>Felder pro Navigationseintrag</summary>
-
-| Feld | Beschreibung |
-|------|-------------|
-| Titel | Anzeigetext des Links. |
-| Link | Shopware-Pfad (Slug der Kategorie). |
-| Linktyp | Landingpage / Detail / Navigation / Extern. |
-
+<table>
+<tr><th>Feld</th><th>Beschreibung</th></tr>
+<tr><td>Titel</td><td>Anzeigetext des Links.</td></tr>
+<tr><td>Link</td><td>Shopware-Pfad (Slug der Kategorie).</td></tr>
+<tr><td>Linktyp</td><td>Landingpage / Detail / Navigation / Extern.</td></tr>
+</table>
 </details>
 
 ---
