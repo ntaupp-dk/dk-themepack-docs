@@ -92,11 +92,13 @@ Zeigt Inhalte als Kartengitter an — ideal fuer Teaser, Stories oder Lookbooks.
 <summary>Felder pro Karte</summary>
 <table>
 <tr><th>Feld</th><th>Beschreibung</th></tr>
-<tr><td>Typ</td><td>Story / Teaser / Lookbook — beeinflusst die Darstellung.</td></tr>
-<tr><td>Bild</td><td>Visuelles Element der Karte.</td></tr>
+<tr><td>Ueberschrift</td><td>Headline der Karte.</td></tr>
+<tr><td>Unterueberschrift</td><td>Subheadline unterhalb der Ueberschrift.</td></tr>
 <tr><td>Text</td><td>Kartentext (Richtext).</td></tr>
-<tr><td>Link / Link-Titel</td><td>Verlinkung der Karte.</td></tr>
-<tr><td>Linktyp</td><td>Bei »Modal« wird ein Video-Overlay geoeffnet.</td></tr>
+<tr><td>Bild</td><td>Visuelles Element der Karte (max. 1 Bild).</td></tr>
+<tr><td>Link-Titel</td><td>Beschriftung des Buttons.</td></tr>
+<tr><td>Link</td><td>Verlinkung der Karte.</td></tr>
+<tr><td>Linktyp</td><td>Detail / Navigation / Landingpage / Extern / Modal. Bei »Modal« wird ein Video-Overlay geoeffnet.</td></tr>
 </table>
 </details>
 
