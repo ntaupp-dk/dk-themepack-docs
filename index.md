@@ -49,7 +49,6 @@ Grossflaechiges Bannerelement fuer den Seiteneinstieg. Zeigt ein Bild oder Video
 | Ueberschrift | Wird oberhalb des Banners angezeigt (optional). |
 | Text & Buttons zentriert | Zentriert den Text-Overlay ueber dem gesamten Banner. |
 | Hoehe | Klein / Mittel / Gross. Bestimmt die sichtbare Hoehe des Banners. |
-| Variante | 1-spaltig / 2-spaltig / 2-spaltig Text mittig / 3-spaltig. Bestimmt die Aufteilung der Slides. |
 | Rahmen oben/unten | Fuegt oben und/oder unten einen sichtbaren Rahmen hinzu. |
 
 <details>
@@ -59,14 +58,15 @@ Grossflaechiges Bannerelement fuer den Seiteneinstieg. Zeigt ein Bild oder Video
 <tr><td>Ueberschrift</td><td>Headline auf dem Slide.</td></tr>
 <tr><td>Text</td><td>Beschreibungstext (Richtext-Editor).</td></tr>
 <tr><td>Bild / Video</td><td>Hintergrundbild oder -video fuer den Slide.</td></tr>
-<tr><td>Link / Link-Titel</td><td>Button-Link und dessen Beschriftung.</td></tr>
+<tr><td>Link</td><td>Button-Link.</td></tr>
 <tr><td>Linktyp</td><td>Detail / Navigation / Landingpage / Extern / Modal.</td></tr>
-<tr><td>Textfarbe</td><td>Aendert die Textfarbe (Standard: Schwarz).</td></tr>
-<tr><td>Hintergrundfarbe</td><td>Weiss / Hellgrau / Dunkel / Verlauf — als farbiger Overlay.</td></tr>
+<tr><td>Link-Titel</td><td>Beschriftung des Buttons.</td></tr>
+<tr><td>Textfarbe</td><td>Standard oder Schwarz.</td></tr>
+<tr><td>Hintergrundfarbe</td><td>Keine / Weiss / Hellgrau / Dunkel / Verlauf — als farbiger Overlay.</td></tr>
 </table>
 </details>
 
-> **Tipp:** Fuer helle Bilder die Textfarbe auf Schwarz setzen; bei dunklen Bildern eine helle Hintergrundfarbe waehlen, damit der Text lesbar bleibt. Bei Linktyp »Modal« wird ein Video-Overlay geoeffnet statt eines Seitenwechsels.
+> **Tipp:** Die Anzahl der Slides bestimmt das Layout: 1 Slide = 1-spaltig, 2 Slides = 2-spaltig, 3 Slides = 3-spaltig. Mit aktiviertem "Text & Buttons zentriert" wird der Text mittig ueber allen Spalten dargestellt. Bei Linktyp »Modal« wird ein Video-Overlay geoeffnet statt eines Seitenwechsels.
 
 ---
 
@@ -78,7 +78,7 @@ Zeigt Inhalte als Kartengitter an — ideal fuer Teaser, Stories oder Lookbooks.
 
 ![Card Group](Screenshots/card-group.png)
 
-#### Optionen des Elements
+#### Optionen des Elements (FlexForm)
 
 | Feld | Beschreibung |
 |------|-------------|
@@ -87,18 +87,17 @@ Zeigt Inhalte als Kartengitter an — ideal fuer Teaser, Stories oder Lookbooks.
 | Ausrichtung | Links / Zentriert / Rechts. |
 | Animation | Aktiviert eine Einblendanimation (Fade-Up) mit zeitversetztem Erscheinen. |
 | Spalten | 1 / 2 / 3 / 4 Spalten im Desktop-Layout. |
+| Rahmen oben/unten | Fuegt oben und/oder unten einen sichtbaren Rahmen hinzu. |
 
 <details>
 <summary>Felder pro Karte</summary>
 <table>
 <tr><th>Feld</th><th>Beschreibung</th></tr>
-<tr><td>Ueberschrift</td><td>Headline der Karte.</td></tr>
-<tr><td>Unterueberschrift</td><td>Subheadline unterhalb der Ueberschrift.</td></tr>
 <tr><td>Text</td><td>Kartentext (Richtext).</td></tr>
 <tr><td>Bild</td><td>Visuelles Element der Karte (max. 1 Bild).</td></tr>
 <tr><td>Link-Titel</td><td>Beschriftung des Buttons.</td></tr>
 <tr><td>Link</td><td>Verlinkung der Karte.</td></tr>
-<tr><td>Linktyp</td><td>Detail / Navigation / Landingpage / Extern / Modal. Bei »Modal« wird ein Video-Overlay geoeffnet.</td></tr>
+<tr><td>Linktyp</td><td>Detail / Navigation / Landingpage / Extern / Modal.</td></tr>
 </table>
 </details>
 
@@ -116,17 +115,17 @@ Shopware-Kategorie-Slider mit Herren/Damen-Umschalter. Zeigt Produktkategorien a
 |------|-------------|
 | Ueberschrift | Titel ueber dem Slider. |
 | Peek-Effekt | Zeigt beim Laden kurz an, dass weitere Inhalte vorhanden sind. |
-| Rahmen | Rahmenlinien oben/unten. |
+| Rahmen oben/unten | Fuegt oben und/oder unten einen sichtbaren Rahmen hinzu. |
 
 <details>
 <summary>Felder pro Kategorie-Eintrag</summary>
 <table>
 <tr><th>Feld</th><th>Beschreibung</th></tr>
 <tr><td>Typ</td><td>Freisteller / Editorial-Text aussen / Editorial-Text innen / NOS.</td></tr>
+<tr><td>Bild-Anpassung</td><td>Contain (vollstaendig anzeigen) oder Cover (zuschneiden).</td></tr>
 <tr><td>Hauptkategorie</td><td>Herren / Damen — bestimmt, bei welchem Tab die Karte erscheint.</td></tr>
 <tr><td>Kategorie-Label</td><td>Beschriftung der Kategorie.</td></tr>
-<tr><td>Bild-Anpassung</td><td>Cover (zuschneiden) oder Contain (vollstaendig anzeigen).</td></tr>
-<tr><td>Unterkategorien</td><td>Inline-Eintraege mit Bild, Link, Titel und Subline.</td></tr>
+<tr><td>Unterkategorien</td><td>Inline-Eintraege mit Bild, Link, Titel, Subline und Textfarbe.</td></tr>
 </table>
 </details>
 
@@ -145,8 +144,8 @@ Outfit-Slider, der komplette Looks mit verlinkten Produkten zeigt. Jeder Slide e
 <table>
 <tr><th>Feld</th><th>Beschreibung</th></tr>
 <tr><td>Titel</td><td>Name des Looks.</td></tr>
-<tr><td>Look-Bild</td><td>Das Hauptbild des Outfits.</td></tr>
-<tr><td>Produkt-Bilder</td><td>Bis zu 3 kleine Produktbilder. Jedes kann auf eine Produktseite verlinkt werden.</td></tr>
+<tr><td>Look-Bild</td><td>Das Hauptbild des Outfits (max. 1 Bild).</td></tr>
+<tr><td>Produkt-Bilder</td><td>Bis zu 3 kleine Produktbilder. Jedes kann ueber die Bild-Metadaten auf eine Produktseite verlinkt werden.</td></tr>
 </table>
 </details>
 
@@ -164,7 +163,7 @@ Bildergalerie im Fashion-Lookbook-Stil. Unter jedem Bild koennen bis zu 3 Produk
 |------|-------------|
 | Ueberschrift | Titel des Lookbooks. |
 | Textfarbe | Schwarz oder Standard. |
-| Bilder | Die Lookbook-Bilder. Pro Bild koennen bis zu 3 Produkt-Links und Kategorien hinterlegt werden. |
+| Bilder | Die Lookbook-Bilder. Pro Bild koennen bis zu 3 Produkt-Links und 3 Kategorien hinterlegt werden (in den Bild-Metadaten). Zusaetzlich: Mobil ausblenden, Bild-Anpassung, Position, Ausrichtung. |
 
 > **Tipp:** Die Produkt-Links und Kategorien werden direkt an der jeweiligen Bildreferenz eingetragen — die Felder erscheinen, sobald ein Bild hinzugefuegt wurde.
 
@@ -182,7 +181,7 @@ Bildwand-Layout mit Rasterdarstellung. Alle 8 Bilder wird automatisch ein Textbl
 |------|-------------|
 | Ueberschrift / Subueberschrift | Titel und Zwischentitel fuer den eingeblendeten Textblock. |
 | Text | Richtext-Inhalt fuer den Textblock. |
-| Bilder | Pro Bild: Ausrichtung, Mobil-Ausblendung und individueller Link. |
+| Bilder | Pro Bild kann ein individueller Link hinterlegt werden (in den Bild-Metadaten). |
 | Rahmen | Rahmenlinien oben/unten. |
 
 ---
@@ -193,7 +192,7 @@ Raster aus Icons mit begleitendem Text — fuer Features, Services oder Vorteile
 
 ![Icon Group](Screenshots/icon-group.png)
 
-#### Optionen des Elements
+#### Optionen des Elements (FlexForm)
 
 | Feld | Beschreibung |
 |------|-------------|
@@ -207,8 +206,9 @@ Raster aus Icons mit begleitendem Text — fuer Features, Services oder Vorteile
 <tr><th>Feld</th><th>Beschreibung</th></tr>
 <tr><td>Text</td><td>Beschreibung neben dem Icon (Richtext).</td></tr>
 <tr><td>Link</td><td>Optionale Verlinkung.</td></tr>
-<tr><td>Icon-Set / Icon</td><td>Auswahl aus den verfuegbaren Icon-Bibliotheken.</td></tr>
-<tr><td>Icon-Datei</td><td>Alternativ: eigenes Bild als Icon hochladen.</td></tr>
+<tr><td>Icon-Set</td><td>Auswahl aus den verfuegbaren Icon-Bibliotheken.</td></tr>
+<tr><td>Icon</td><td>Auswahl eines konkreten Icons aus dem gewaehlten Set.</td></tr>
+<tr><td>Icon-Datei</td><td>Alternativ: eigenes Bild als Icon hochladen (erscheint wenn kein Set gewaehlt).</td></tr>
 </table>
 </details>
 
@@ -225,7 +225,7 @@ Bildergalerie mit einstellbarem Seitenverhaeltnis. Ideal fuer Kampagnenbilder od
 | Feld | Beschreibung |
 |------|-------------|
 | Bilder | Die Galeriebilder. |
-| Seitenverhaeltnis | 4:3 / 16:9 / 1:1 — alle Bilder werden einheitlich zugeschnitten. |
+| Seitenverhaeltnis | Einheitliches Format fuer alle Bilder. |
 | Elemente pro Seite | Anzahl der sichtbaren Bilder pro Seite. |
 | Rahmen | Rahmenlinien oben/unten. |
 
@@ -244,7 +244,6 @@ Aufklappbare Bereiche — z.B. fuer FAQ, Produktdetails oder Zusatzinformationen
 | Feld | Beschreibung |
 |------|-------------|
 | Ueberschrift | Titel ueber dem Accordion. |
-| Standard-Element | Welches Panel beim Laden automatisch geoeffnet ist (FlexForm). |
 
 <details>
 <summary>Felder pro Accordion-Eintrag</summary>
@@ -252,15 +251,14 @@ Aufklappbare Bereiche — z.B. fuer FAQ, Produktdetails oder Zusatzinformationen
 <tr><th>Feld</th><th>Beschreibung</th></tr>
 <tr><td>Ueberschrift</td><td>Titel des aufklappbaren Bereichs (Pflichtfeld).</td></tr>
 <tr><td>Tabellen-Modus</td><td>Schaltet zwischen Richtext und Tabellendarstellung um.</td></tr>
-<tr><td>Text</td><td>Inhalt des Bereichs (Richtext oder Tabelle).</td></tr>
+<tr><td>Text</td><td>Inhalt des Bereichs (Richtext, sichtbar wenn Tabellen-Modus aus).</td></tr>
 <tr><td>Textbreite</td><td>25% / 33% / 50% / 75% der Gesamtbreite.</td></tr>
+<tr><td>Tabelle</td><td>Tabelleninhalt mit Klasse, Trennzeichen und Ueberschrift (sichtbar wenn Tabellen-Modus an).</td></tr>
 <tr><td>Medien</td><td>Bilder oder Videos neben dem Text.</td></tr>
-<tr><td>Medien-Ausrichtung</td><td>Links / Oben / Rechts / Unten.</td></tr>
-<tr><td>Bildspalten</td><td>1–6 Spalten fuer die Medienansicht.</td></tr>
 </table>
 </details>
 
-> **Tipp:** Im Tabellen-Modus koennen Groessentabellen oder Datenvergleiche komfortabel dargestellt werden. Die Textbreite und Medien-Ausrichtung ermoeglichen flexible Layouts innerhalb jedes Panels.
+> **Tipp:** Im Tabellen-Modus koennen Groessentabellen oder Datenvergleiche komfortabel dargestellt werden.
 
 ---
 
@@ -299,7 +297,7 @@ Vertikale Zeitleiste mit Datumsmarkierungen — z.B. fuer Unternehmensgeschichte
 | Feld | Beschreibung |
 |------|-------------|
 | Ueberschrift | Titel ueber der Timeline. |
-| Sortierung | Aufsteigend / Absteigend (nach Datum). |
+| Sortierung | Aufsteigend / Absteigend nach Datum (FlexForm). |
 
 <details>
 <summary>Felder pro Timeline-Eintrag</summary>
@@ -308,7 +306,8 @@ Vertikale Zeitleiste mit Datumsmarkierungen — z.B. fuer Unternehmensgeschichte
 <tr><td>Datum</td><td>Das Datum des Eintrags — die Jahreszahl wird als Markierung angezeigt.</td></tr>
 <tr><td>Ueberschrift</td><td>Titel des Zeitpunkts.</td></tr>
 <tr><td>Text</td><td>Beschreibung (Richtext).</td></tr>
-<tr><td>Icon</td><td>Icon aus einer Bibliothek oder als eigene Datei.</td></tr>
+<tr><td>Icon-Set / Icon</td><td>Icon aus einer Bibliothek.</td></tr>
+<tr><td>Icon-Datei</td><td>Alternativ: eigenes Bild als Icon.</td></tr>
 <tr><td>Bild</td><td>Optionales Bild zum Eintrag.</td></tr>
 </table>
 </details>
@@ -326,7 +325,8 @@ Horizontale Leiste mit Alleinstellungsmerkmalen (Unique Selling Points). Wird al
 <table>
 <tr><th>Feld</th><th>Beschreibung</th></tr>
 <tr><td>Text</td><td>Kurzbeschreibung des USP (Richtext).</td></tr>
-<tr><td>Icon</td><td>Icon aus einer Bibliothek oder als eigene Datei.</td></tr>
+<tr><td>Icon-Set / Icon</td><td>Icon aus einer Bibliothek.</td></tr>
+<tr><td>Icon-Datei</td><td>Alternativ: eigenes Bild als Icon (erscheint wenn kein Set gewaehlt).</td></tr>
 </table>
 </details>
 
@@ -361,6 +361,7 @@ Horizontale Navigationsleiste mit Links zu Shopware-Kategorien. Zeigt einen Intr
 
 | Feld | Beschreibung |
 |------|-------------|
+| Ueberschrift | Titel ueber der Navigation. |
 | Kategorie-Intro | Einleitungstext ueber der Navigation. |
 
 <details>
@@ -369,7 +370,7 @@ Horizontale Navigationsleiste mit Links zu Shopware-Kategorien. Zeigt einen Intr
 <tr><th>Feld</th><th>Beschreibung</th></tr>
 <tr><td>Titel</td><td>Anzeigetext des Links.</td></tr>
 <tr><td>Link</td><td>Shopware-Pfad (Slug der Kategorie).</td></tr>
-<tr><td>Linktyp</td><td>Landingpage / Detail / Navigation / Extern.</td></tr>
+<tr><td>Linktyp</td><td>Detail / Navigation / Landingpage / Extern.</td></tr>
 </table>
 </details>
 
@@ -400,9 +401,7 @@ Universelles Medien-Element fuer Bilder, Videos (YouTube, Vimeo, MP4) und PDFs. 
 
 | Feld | Beschreibung |
 |------|-------------|
-| Bilder / Videos | Medien aus der Dateiliste. |
-| Medienspalten | 1–6 Spalten fuer die Darstellung. |
-| Abstand | Normaler oder grosser Abstand zwischen Medien. |
+| Medien | Bilder, Videos oder PDFs aus der Dateiliste. |
 | Mobil verbergen | Blendet das Element auf kleinen Bildschirmen aus. |
 
 ---
@@ -425,16 +424,16 @@ Container sind keine eigenstaendigen Inhaltselemente, sondern Huellen, die ander
 
 > **Tipp:** Container koennen verschachtelt werden. Beispiel: Innerhalb einer 2-Spalten-Anordnung kann eine Spalte wiederum einen Slider enthalten.
 
-### Gemeinsame Optionen (Frame)
+### Gemeinsame Optionen (Erscheinungsbild)
 
 Jedes Inhaltselement — ob eigenstaendig oder in einem Container — besitzt im Tab **Erscheinungsbild** folgende Optionen:
 
 | Option | Beschreibung |
 |--------|-------------|
-| Layout | Frame-Groesse: Default / Small / Medium / Large / Full Width. |
-| Frame-Klasse | Optischer Rahmen des Elements (z.B. Well, Jumbotron, Ruler, None). |
-| Abstand oben/unten | Extra / Default / Small / None — steuert den vertikalen Abstand. |
-| Hintergrundfarbe | Transparent / Primary / Secondary / Tertiary / Quaternary / Light / Dark. |
+| Layout | Frame-Groesse: Default / Full (100%) / Large (1240px) / Medium (960px) / Small (625px). |
+| Frame-Klasse | Optischer Rahmen des Elements (z.B. Well, Jumbotron, None). |
+| Abstand oben/unten | Default / Small / None — steuert den vertikalen Abstand. |
+| Frame-Optionen | Einrueckung links/rechts (sichtbar wenn Frame-Klasse nicht "None"). |
 
 ---
 
