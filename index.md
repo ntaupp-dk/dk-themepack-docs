@@ -414,26 +414,64 @@ Container sind keine eigenstaendigen Inhaltselemente, sondern Huellen, die ander
 
 | Container | Beschreibung |
 |-----------|-------------|
-| 2 Spalten (gleich) | Zwei gleichbreite Spalten nebeneinander. |
-| 2 Spalten (links breit) | Linke Spalte breiter als rechte (ca. 60/40). |
-| 2 Spalten (rechts breit) | Rechte Spalte breiter als linke (ca. 40/60). |
+| 1 Spalte | Einzelne Spalte — nuetzlich um Elemente zu gruppieren oder einen gemeinsamen Rahmen zu geben. |
+| 2 Spalten (gleich) | Zwei gleichbreite Spalten nebeneinander (50/50). |
+| 2 Spalten (links breit) | Linke Spalte breiter als rechte (ca. 75/25). |
+| 2 Spalten (rechts breit) | Rechte Spalte breiter als linke (ca. 25/75). |
 | 3 Spalten | Drei gleichbreite Spalten. |
 | 4 Spalten | Vier gleichbreite Spalten. |
-| Slider | Umschliesst Elemente in einem horizontalen Slider. |
-| Tabs | Umschliesst Elemente in einer Tab-Navigation. |
+| Modal | Container dessen Inhalt als Overlay/Modal angezeigt wird. |
 
-> **Tipp:** Container koennen verschachtelt werden. Beispiel: Innerhalb einer 2-Spalten-Anordnung kann eine Spalte wiederum einen Slider enthalten.
+> **Tipp:** Container koennen verschachtelt werden. Beispiel: Innerhalb einer 2-Spalten-Anordnung kann eine Spalte wiederum einen weiteren Container enthalten.
+
+### Container-spezifische Optionen
+
+Zusaetzlich zu den allgemeinen Erscheinungsbild-Optionen haben Container folgende eigene Einstellungen:
+
+| Option | Werte | Beschreibung |
+|--------|-------|-------------|
+| Container-Typ | (leer) / Default / Facts | Aendert die visuelle Darstellung des Containers. »Facts« zeigt den Inhalt in einer speziellen Fakten-Darstellung. |
+| Hintergrundfarbe | None / Weiss / Hellgrau / Dunkel | Hintergrund des gesamten Containers. Nur sichtbar wenn Frame-Klasse nicht »None«. |
+| Inhaltsausrichtung | (leer) / Oben / Mitte / Unten | Vertikale Ausrichtung der Inhalte innerhalb der Spalten. Relevant bei unterschiedlich hohen Spalteninhalten. |
+| Sticky Text | Checkbox | Fixiert den Text beim Scrollen innerhalb des Containers. |
 
 ### Gemeinsame Optionen (Erscheinungsbild)
 
 Jedes Inhaltselement — ob eigenstaendig oder in einem Container — besitzt im Tab **Erscheinungsbild** folgende Optionen:
 
+#### Frame-Klasse (Breite und Rahmen)
+
+Bestimmt die maximale Breite und den optischen Rahmen des Elements. Standard ist »None« (kein Rahmen).
+
+| Wert | Beschreibung |
+|------|-------------|
+| None | Kein Rahmen (Standard). Das Element nimmt die volle verfuegbare Breite ein. |
+| Default | Standard-Rahmen mit normaler Breite. |
+| Indent | Eingerueckter Rahmen. |
+| full (100%) | Volle Seitenbreite — das Element bricht aus dem normalen Inhaltsbereich aus. |
+| large (1240px) | Breiter Rahmen, maximal 1240px. |
+| medium (960px) | Mittlerer Rahmen, maximal 960px. |
+| small (625px) | Schmaler Rahmen, maximal 625px. |
+
+#### Abstaende
+
+| Option | Werte | Beschreibung |
+|--------|-------|-------------|
+| Abstand oben (Padding top) | None (Standard) / Default / Small | Vertikaler Abstand oberhalb des Elements. |
+| Abstand unten (Padding bottom) | None (Standard) / Default / Small | Vertikaler Abstand unterhalb des Elements. |
+| Abstand links (Padding left) | None / Small / Medium / Large | Horizontaler Abstand auf der linken Seite. |
+| Abstand rechts (Padding right) | None / Small / Medium / Large | Horizontaler Abstand auf der rechten Seite. |
+
+> **Tipp:** Die horizontalen Abstaende (links/rechts) sind besonders nuetzlich in Mehrspaltenlayouts, um den Inhalt innerhalb einer Spalte vom Rand abzusetzen.
+
+#### Frame-Optionen
+
+Nur sichtbar wenn die Frame-Klasse nicht »None« ist. Dargestellt als Checkboxen.
+
 | Option | Beschreibung |
 |--------|-------------|
-| Layout | Frame-Groesse: Default / Full (100%) / Large (1240px) / Medium (960px) / Small (625px). |
-| Frame-Klasse | Optischer Rahmen des Elements (z.B. Well, Jumbotron, None). |
-| Abstand oben/unten | Default / Small / None — steuert den vertikalen Abstand. |
-| Frame-Optionen | Einrueckung links/rechts (sichtbar wenn Frame-Klasse nicht "None"). |
+| Einrueckung links | Rueckt den Inhalt innerhalb des Frames nach rechts ein. |
+| Einrueckung rechts | Rueckt den Inhalt innerhalb des Frames nach links ein. |
 
 ---
 
